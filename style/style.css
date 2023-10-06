@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+#nav_right {
+    display: flex;
+    /* margin: 10px; */
+}
+
+nav h2 {
+    color: white;
+    /* padding: 0%, 10%; */
+    margin: 0 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+#sign_up {
+    color: #622569;
+    background-color: #d6d4e0;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 1%;
+    background-color: #622569;
+    overflow: hidden;
+}
+
+nav h1 {
+    font-family: 'Oswald';
+    font-size: 90px;
+    color: white;
+}
+
+.card_top_row {
+    display: flex;
+    flex-direction: column;
+    background-color: #5b9aa0;
+    width: 50%;
+}
+
+.top_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.top_row p {
+    color: white;
+    font-size: 'Montserrat';
+    font-size: 24px;
+}
+
+.top_row h1 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+}
+
+#desire {
+    color: #622569;
+    background-color: #d6d4e0;
+    background-clip: text;
+    border-radius: 20px;
+    padding: 8px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+@media (max-width: 576px) {
+    nav {
+        display: none;
+    }
+
+    .top_row{
+        flex-direction: column;
+    }
+
+    .card_top_row{
+        width: 100%;
+    }
+}
