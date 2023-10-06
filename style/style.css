@@ -52,7 +52,7 @@ nav h1 {
 
 .top_row p {
     color: white;
-    font-size: 'Montserrat';
+    font-family: 'Montserrat';
     font-size: 24px;
 }
 
@@ -78,11 +78,11 @@ nav h1 {
         display: none;
     }
 
-    .top_row{
+    .top_row {
         flex-direction: column;
     }
 
-    .card_top_row{
+    .card_top_row {
         width: 100%;
     }
 }
