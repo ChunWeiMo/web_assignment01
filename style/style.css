@@ -38,25 +38,25 @@ nav h1 {
     color: white;
 }
 
-.card_top_row {
+.card_container_top {
     display: flex;
     flex-direction: column;
     background-color: #5b9aa0;
     width: 50%;
 }
 
-.top_row {
+.container_top {
     display: flex;
     flex-direction: row;
 }
 
-.top_row p {
+.container_top p {
     color: white;
     font-family: 'Montserrat';
     font-size: 24px;
 }
 
-.top_row h1 {
+.container_top h1 {
     color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 90px;
@@ -73,16 +73,27 @@ nav h1 {
     margin-top: 0px;
 }
 
+.card_container_middle_left {
+    display: flex;
+}
+
+.container_middle_left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 0 5%;
+}
+
 @media (max-width: 576px) {
     nav {
         display: none;
     }
 
-    .top_row {
+    .container_top {
         flex-direction: column;
     }
 
-    .card_top_row {
+    .card_container_top {
         width: 100%;
     }
 }
